@@ -1,1 +1,15 @@
 
+1. Function
+    - Rule đầu tiên của function là các function phải nhỏ. Còn rule thứ 2 của function là chúng phải nhỏ hơn nữa
+    - Trong gần 4 thế kỷ, Uncle Bob đã viết những function với các size khác nhau.
+        + Có những function 3000 dòng
+        + Có những function từ 100 -> 300 dòng
+        + Có những function từ 20 -> 30 dòng
+         => để rồi ông rút ra kết luận rằng, những function phải rất nhỏ. (Tối đa 20 dòng và mỗi dòng 150 kí tự)
+    - Các function nên ngắn gọn đến mức nào?
+        - Vào năm 1999, Uncle Bob đến thăm 1 người bạn và được người bạn này cho ông ấy xem 1 chương trình do người bạn viết.
+        Chương trình rất đẹp, ấn tượng với Uncle Bob. 
+        - Sau đó, người bạn của ông cho ông xem code, và ông rất bất ngờ về độ nhỏ của các hàm trong chương trình này. Các hàm
+        rất nhỏ, chỉ có 2, 3, hoặc 4 dòng. Mỗi hàm đều rõ ràng, dễ hiểu. Mỗi hàm đều nói lên 1 câu chuyện và dẫn dắt tới các           hàm  tiếp theo. Đó là đáp án cho câu trả lời các function nên ngắn gọn đến mức nào
+
+    
