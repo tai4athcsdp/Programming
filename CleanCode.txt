@@ -13,3 +13,16 @@
         rất nhỏ, chỉ có 2, 3, hoặc 4 dòng. Mỗi hàm đều rõ ràng, dễ hiểu. Mỗi hàm đều nói lên 1 câu chuyện và dẫn dắt tới các           hàm  tiếp theo. Đó là đáp án cho câu trả lời các function nên ngắn gọn đến mức nào
 
     
+
+================================ REFACTORING ==================================================================================
+1. Tách hàm
+    - vấn đề: ta có 1 đoạn code có thể nhóm lại vối nhau
+    - cách làm: tách đoạn code này ra 1 hàm mới
+    - ví dụ: https://refactoring.guru/extract-method
+    - Tại sao phải tách hàm? Hàm càng nhiều dòng, sẽ càng khó để biết hàm thực hiện công việc gì
+    - Lợi ích của việc tách hàm? 
+        + Dễ đọc hơn
+        + Tránh lặp code: hàm tách ra có thể sẽ sử dụng ở 1 nơi khác trong ứng dụng của mình
+    - Cách tách hàm:
+        + Tạo 1 method mới với tên phù hợp
+        + copy đoạn code cũ vào thân hàm. thay thế đoạn code cũ bằng lời gọi hàm
